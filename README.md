@@ -49,7 +49,8 @@ print("The solution is:", x)
 
 ## Output:
 
-![Screenshot 2025-05-14 140921](https://github.com/user-attachments/assets/4a17c745-d5d7-44e9-bd4e-572aa01a55a2)
+![image](https://github.com/user-attachments/assets/8bfbc970-d8f7-4b21-8ece-3b0b1bd90b46)
+
 
 
 ## Result:
