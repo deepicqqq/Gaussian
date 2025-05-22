@@ -1,3 +1,5 @@
+## NAME: DEEPIKA P
+## REGISTER NO: 212223240024
 # Gaussian Elimination
 
 ## AIM:
@@ -8,24 +10,29 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
-1. Import the necessary library (NumPy).
 
-2. Accept or define the augmented matrix representing the system of linear equations.
+​1. Start the program.
 
-3. Perform row operations to convert the matrix into an upper triangular form.
+2. Enter the augmented matrix, which includes both the coefficients of the variables and the constants from the equations.
 
-4. Use back substitution to find the solutions of the variables.
+3. Count the number of equations (rows in the matrix).
 
- 
+4. Use forward elimination to make the entries below the main diagonal zero:
+
+      For each row, eliminate the values below the current pivot by adjusting the rows beneath it.
+
+5. Create an empty list (or array) for the solution and fill it with zeros.
+
+6. Perform back substitution:
+
+      Start from the last row and calculate the value of each variable one by one, moving upward.
+
+7. Display the solution values.
+
+8. End the program.
 
 ## Program:
-```
-/*
-Program to find the solution of a matrix using Gaussian Elimination.
-Developed by: DEEPIKA P
-RegisterNumber: 2122233240024
-*/
-```
+
 import numpy as np\
 a = np.array([[2, 1, -1, 8],\
               [-3, -1, 2, -11],\
